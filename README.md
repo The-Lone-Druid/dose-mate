@@ -1,5 +1,9 @@
 # DoseMate App
 
+## Figma Design
+
+An MVP level of design is being made available, ofcourse we'll be making changes to it as we go along. You can view the design by clicking on this [link](https://www.figma.com/design/JDs93zfgDervH7fCXdtQHa/DoseMate-App?node-id=2-5&t=Y6sSYSN2A0WhNwBk-0).
+
 ## Learn Expo's Latest Major Updates
 
 Make sure to clickk on this [link](https://docs.expo.dev/get-started/start-developing/) to learn more about Expo's latest major updates. Expo has made some major changes to the way you build, routing and deploy your app.
