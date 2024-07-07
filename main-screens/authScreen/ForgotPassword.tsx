@@ -15,7 +15,7 @@ const ForgotPassword: React.FC = () => {
   const handlePassword = () => { };
   return (
     <View>
-      <View style={tw` bg-[#2E2E2E] h-[600px] p-4`}>
+      <View style={tw` bg-[#2E2E2E] h-[700px] p-4`}>
         <View style={tw` py-10  text-center items-center`}>
           <Image source={require('../../assets/images/container.png')} style={tw`text-center items-center`} />
         </View>

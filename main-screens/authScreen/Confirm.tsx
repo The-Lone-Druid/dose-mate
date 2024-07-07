@@ -2,7 +2,7 @@ import Button from '@/components/Button';
 import tw from '@/tailwind';
 import React, { useState } from 'react';
 import { Formik } from 'formik';
-import { View, Text, Image, TouchableOpacity } from 'react-native';
+import { View, Text, Image, TouchableOpacity, StyleSheet } from 'react-native';
 import * as Yup from 'yup';
 import { TextInput } from '@react-native-material/core';
 import { useNavigation } from 'expo-router';
@@ -17,7 +17,7 @@ const ConfirmPage: React.FC = () => {
   const handleLogin = () => { };
   return (
     <View>
-      <View style={tw` bg-[#2E2E2E] h-[600px] p-4`}>
+      <View style={tw` bg-[#2E2E2E] h-[700px] p-4`}>
         <View style={tw` py-10  text-center items-center`}>
           <Image source={require('../../assets/images/container.png')} style={tw`text-center items-center`} />
         </View>
@@ -49,7 +49,7 @@ const ConfirmPage: React.FC = () => {
                       variant="filled"
                       color='black'
                       autoFocus={true}
-                      style={tw`flex-1 p-1 px-0 font-poppins font-bold`}
+                      style={tw` p-1  px-0 font-poppins font-bold`}
                       keyboardType={'name-phone-pad'}
                       onChangeText={handleChange('Name')}
                       returnKeyType="next"
@@ -86,3 +86,10 @@ const ConfirmPage: React.FC = () => {
 };
 
 export default ConfirmPage;
+
+const styles = StyleSheet.create({
+  input: {
+    color: 'black',
+    fontFamily: 'Poppins-Bold',
+  },
+});
